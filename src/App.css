@@ -1,0 +1,63 @@
+.App{
+  background-color:#313031;
+  height: 100vh;
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+}
+.header-left{
+  color: white;
+}
+.app-label{
+  color: white;
+  margin: 10px;
+  font-size: 30pt;
+}
+.app-header{
+  float: left;
+  width: 100%;
+  display: block;
+}
+.app-header .header-left{
+  float: left;
+  margin: 10px;
+  font-size: 30pt;
+}
+.app-header .header-right{
+  float: right;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.app-header .header-right input{
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.app-upper{
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.app-upper .data.images{
+  width: 33.33%;
+  cursor: pointer;
+}
+
+
+.app-lower{
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  width: 100%;
+}
+
+img{
+  cursor: pointer;
+}
+
+img:hover{
+ height: 110%;
+}
